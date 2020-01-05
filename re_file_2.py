@@ -1,5 +1,5 @@
 import re
-import re
+
 string = 'abdhwi-MM-abcd-aa-aa'
 pat_1 = 'MM(.*?)aa'
 print(re.findall(pat_1,string))
